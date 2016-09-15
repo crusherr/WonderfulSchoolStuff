@@ -1,8 +1,8 @@
 public class Konto{
 	// Attribute
-	String inhaber;
-	double kontostand;
-	String iban;
+	private String inhaber;
+	private double kontostand;
+	private String iban;
 
 	// Methoden
 	public void einzahlen(double betrag){
@@ -17,8 +17,24 @@ public class Konto{
 		return true;
 	}
 
-	public double kontostand(){
-		return kontostand;
+	public void setIban(String iban){
+		this.iban = iban;
+	}
+
+	public String getIban(){
+		return this.iban;
+	}
+
+	public void setInhaber(String inhaber){
+		this.inhaber = inhaber;
+	}
+
+	public String getInhaber(){
+		return this.inhaber;
+	}
+
+	public double getKontostand(){
+		return this.kontostand;
 	}
 }
 
