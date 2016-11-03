@@ -1,8 +1,9 @@
 public class TestUI {
 	public static void main(String[] args) {
 		// 1. create objects
-		Konto konto1 = new Konto(4711,10000, 12.5);
-		Konto konto2 = new Konto(1007007, 500, 12.5);
+		
+		Konto konto1 = new Konto(10000);
+		Konto konto2 = new Konto(500);
 
 		// 2. fill properties
 		konto1.einzahlen(1275);

@@ -2,13 +2,15 @@ public class Konto{
 	// Attribute
 	private double kontostand;
 	private int ktoNr;
-	private double zins;
+	private static double zins = 12.5;
 	private int dispo;
 
-	public Konto(int ktoNr, int dispo, double zins){
-		this.ktoNr = ktoNr;
+	private static int zaehler = 10000;
+
+	public Konto(int dispo){
+		this.zaehler++;
+		this.ktoNr = this.zaehler;
 		this.dispo = dispo;
-		this.zins = zins;
 	}
 
 	// Methoden
