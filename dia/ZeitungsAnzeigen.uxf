@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>11</zoom_level>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>22</x>
+      <y>88</y>
+      <w>88</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>Mitarbeiter</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>176</x>
+      <y>33</y>
+      <w>132</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>Anzeige
+eingeben</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>231</x>
+      <y>132</y>
+      <w>132</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>Inserent anlegen</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>231</x>
+      <y>242</y>
+      <w>132</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>Inserent suchen</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>77</x>
+      <y>66</y>
+      <w>121</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;60.0;90.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>88</x>
+      <y>165</y>
+      <w>165</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;130.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>88</x>
+      <y>132</y>
+      <w>165</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>297</x>
+      <y>165</y>
+      <w>99</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>297</x>
+      <y>154</y>
+      <w>121</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;30.0;90.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>396</x>
+      <y>165</y>
+      <w>121</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>Neuer Inserent?</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>220</x>
+      <y>396</y>
+      <w>143</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>Rechnung erstellen</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>66</x>
+      <y>187</y>
+      <w>176</w>
+      <h>264</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;140.0;220.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>143</x>
+      <y>0</y>
+      <w>418</w>
+      <h>473</h>
+    </coordinates>
+    <panel_attributes>Anzeigenverwatlung
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>583</x>
+      <y>66</y>
+      <w>330</w>
+      <h>209</h>
+    </coordinates>
+    <panel_attributes>Anzeige
+--
+_-grundpreis: Double_
+_-preisfaktor: Double_
+_-mehrwertsteuer: Double_
+-inserent: Inserent
+-titel: String
+-rubrik: String
+-beschreibung: String
+--
++Anzeige(t: String, r: String, b: String) : Anzeige
++toString() : String
++setTitel(t : String)
++setRUbrik(r : String
++setBeschreibung(b : String)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>363</x>
+      <y>517</y>
+      <w>220</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes> willi:Inserent_
+--
+name = Willi Kuhn 
+telefonnummer = 06447 / 8776 
+kontonummer = 443328
+bankleitzahl =  40080700
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>506</x>
+      <y>737</y>
+      <w>352</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>_kasten:Anzeige_
+--
+title = Auarium 60l
+rubrik = Tiermarkt
+beschreibung = incl. Abdeckung mit Beleuchtung
+, Innenpumpe, 35€ VB
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>99</x>
+      <y>715</y>
+      <w>297</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>_tisch:Anzeige_
+--
+title = Gut erhaltener Gartentisch
+rubrik = Garten
+beschreibung = weiß, Plastik, sehr stabil,
+120 cm im Durchmesser, 20 €
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>88</x>
+      <y>517</y>
+      <w>242</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>_helga:Inserent_
+--
+name = Helga Hasselbusch
+telefonnummer = 0641 / 123456 
+kontonummer = 77888,
+bankleitzahl =  50090005
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>704</x>
+      <y>550</y>
+      <w>198</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>_anzug:Anzeige_
+--
+title = Kinder Neoprenanzug
+rubrik = Sport
+beschreibung = Größe 148, kaum getragen, 19€
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>253</x>
+      <y>627</y>
+      <w>33</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>572</x>
+      <y>572</y>
+      <w>154</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;120.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>528</x>
+      <y>627</y>
+      <w>99</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;70.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1034</x>
+      <y>66</y>
+      <w>363</w>
+      <h>209</h>
+    </coordinates>
+    <panel_attributes>Inserent
+--
+-name: String
+-telefonummer: String
+-kontonummer: String
+-bankleitzahl: String
+--
++Inserent(n : String, t : String, k : String, b : String)
++toString() : String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>396</x>
+      <y>55</y>
+      <w>132</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>Anzeige ändern</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>231</x>
+      <y>308</y>
+      <w>132</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>Anzeige Prüfen</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>77</x>
+      <y>165</y>
+      <w>176</w>
+      <h>198</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;140.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>77</x>
+      <y>77</y>
+      <w>341</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;60.0;290.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>902</x>
+      <y>154</y>
+      <w>154</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>10.0;10.0;120.0;10.0</additional_attributes>
+  </element>
+</diagram>
